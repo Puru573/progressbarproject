@@ -1,0 +1,115 @@
+.Issue{
+    text-align:left;
+}
+.dropdown *{
+    box-sizing: border-box;
+}
+.select{
+    background-color: lightgrey;
+    font-size: 25px;
+    color:black;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    border-radius: 0.5rem;
+    padding:0.5rem;
+    width: 40%;
+    cursor: pointer;
+
+    
+    /* vo element pura ek row legi */
+
+
+}
+
+.select:hover{
+    background:lightcyan;
+}
+.caret{
+    width:0;
+    height:0;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-top:6px solid black;
+    margin-left: 420px;
+    margin-top:-3px;
+
+
+}
+.caret-rotate{
+    transform: rotate(100deg);
+}
+.active{
+    background-color: aliceblue;
+}
+
+
+.menu li:hover{
+    background-color: lightcyan;
+    cursor: pointer;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: absolute;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: lightgray;
+    width:40%;
+    margin-left: -2rem;
+    padding:1rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.menu{
+    list-style: none;
+    font-size: 20px;
+    background-color: lightgray;
+    border-radius: 0.5rem;
+    position: absolute;
+    margin-top: -1rem;
+    left:40%;
+    max-width:40%;
+    transform:translateX(-99%);
+    opacity:0;
+    display:none;
+    z-index: 1;
+    transition: 0.2s;
+
+}
+
+.select-clicked{
+    border:2px solid;
+    box-shadow: 0.0.em lightgoldenrodyellow;
+}
+
+.subheading{
+   color:lightgray;
+   display: absolute;
+   margin-top: -1rem;
+}
+.back-cont{
+    border-radius: 90%;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    display:flex;
+    position: absolute;
+    height:3rem;
+    width:9rem;
+    cursor: pointer;
+
+}
+.back-cont:hover{
+    background-color: lightsteelblue;
+}
+
+
+
+
+
+
